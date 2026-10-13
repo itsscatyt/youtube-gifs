@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tenor GIF Toolkit · Theme Studio</title><link rel="stylesheet" href="settings.css"></head>
+<body><main class="wrap"><header><div class="logo">YT</div><div><p class="eyebrow">TENOR GIF TOOLKIT</p><h1>YouTube Theme Studio</h1><p class="sub">Customize YouTube's home page, video titles, comments, text and preview outlines.</p></div></header>
+<section class="card"><h2>Quick themes</h2><p class="hint">Choose a starting point, then customize every color.</p><div class="presets"><button class="preset" data-preset="violet">Violet</button><button class="preset" data-preset="ocean">Ocean</button><button class="preset" data-preset="forest">Forest</button><button class="preset" data-preset="rose">Rose</button><button class="preset" data-preset="sunset">Sunset</button><button class="preset" data-preset="mono">Monochrome</button></div>
+<h2 class="section-title">Page & panels</h2>
+<label class="setting"><span><strong>Home/page background</strong><small>Overall YouTube page background</small></span><input id="page" type="color"></label>
+<label class="setting"><span><strong>Cards & panels</strong><small>Search box and panel surfaces</small></span><input id="surface" type="color"></label>
+<label class="setting"><span><strong>Borders & separators</strong><small>Card borders and section dividers</small></span><input id="border" type="color"></label>
+<h2 class="section-title">Text</h2>
+<label class="setting"><span><strong>General text</strong><small>Default page text</small></span><input id="text" type="color"></label>
+<label class="setting"><span><strong>Video titles</strong><small>Titles on home, search and watch pages</small></span><input id="title" type="color"></label>
+<label class="setting"><span><strong>Comments text</strong><small>Comment content and author text</small></span><input id="commentsText" type="color"></label>
+<label class="setting"><span><strong>Subtitles & metadata</strong><small>Channel info, timestamps, views and counts</small></span><input id="secondaryText" type="color"></label>
+<h2 class="section-title">Video previews</h2>
+<label class="setting"><span><strong>Thumbnail background</strong><small>Surface behind video thumbnails</small></span><input id="preview" type="color"></label>
+<label class="setting"><span><strong>Video outline</strong><small>Outline around thumbnails</small></span><input id="outline" type="color"></label>
+<label class="setting"><span><strong>Accent color</strong><small>Hover and focus highlights</small></span><input id="accent" type="color"></label>
+<label class="setting radius-setting"><span><strong>Thumbnail corner roundness</strong><small>Adjust preview corners</small><output id="radiusValue">12 px</output></span><input id="radius" type="range" min="0" max="28" value="12"></label>
+<div class="preview-wrap"><p class="preview-label">LIVE PREVIEW</p><div class="mock"><div class="mock-video"><span class="play">▶</span><span class="duration">12:34</span></div><h3 id="mockTitle">Example video title</h3><p id="mockMeta">Channel name · 120K views · 2 days ago</p><div class="mock-comment"><b>Sample comment</b><p>This is how comment text will look.</p></div></div></div>
+<div class="actions"><button id="reset" class="secondary">Reset defaults</button><button id="save" class="primary">Save and apply</button></div><p id="status" role="status" aria-live="polite"></p></section>
+<section class="card credits-card"><h2>Credits</h2><p class="hint">Extension owner and creator.</p><div class="owner-row"><div class="owner-avatar">SC</div><div class="owner-info"><strong>Owner</strong><span>Itsscatyt</span></div><a class="owner-link" href="https://youtube.com/@itsscatyt" target="_blank" rel="noopener noreferrer">Visit YouTube channel ↗</a></div></section>
+<footer>Settings are stored locally. Refresh YouTube tabs if changes do not appear immediately.</footer></main><script src="settings.js"></script></body></html>
